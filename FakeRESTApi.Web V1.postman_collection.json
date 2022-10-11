@@ -1,0 +1,1062 @@
+{
+	"info": {
+		"_postman_id": "9b748ae5-c642-4c00-bb2b-bdad5c0d46d0",
+		"name": "FakeRESTApi.Web V1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23658964"
+	},
+	"item": [
+		{
+			"name": "api/v1",
+			"item": [
+				{
+					"name": "Authors",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/api/v1/Authors/:id",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "text/plain; v=1.0"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/v1/Authors/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"v1",
+														"Authors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-38856907",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json; v=1.0"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"id\": 34222127,\n  \"idBook\": -27268511,\n  \"firstName\": \"Excepteur cupidatat\",\n  \"lastName\": \"proident et incididunt ut\"\n}"
+										}
+									]
+								},
+								{
+									"name": "/api/v1/Authors/:id Copy",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "text/plain; v=1.0"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/v1/Authors/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"v1",
+														"Authors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-38856907",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json; v=1.0"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"id\": 34222127,\n  \"idBook\": -27268511,\n  \"firstName\": \"Excepteur cupidatat\",\n  \"lastName\": \"proident et incididunt ut\"\n}"
+										}
+									]
+								},
+								{
+									"name": "/api/v1/Authors/:id",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json; v=1.0"
+											},
+											{
+												"key": "Accept",
+												"value": "text/plain; v=1.0"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "[object Object]",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "[object Object]",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/v1/Authors/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"v1",
+														"Authors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-38856907",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json; v=1.0"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"id\": 34222127,\n  \"idBook\": -27268511,\n  \"firstName\": \"Excepteur cupidatat\",\n  \"lastName\": \"proident et incididunt ut\"\n}"
+										}
+									]
+								},
+								{
+									"name": "/api/v1/Authors/:id Copy",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json; v=1.0"
+											},
+											{
+												"key": "Accept",
+												"value": "text/plain; v=1.0"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "[object Object]",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "[object Object]",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/v1/Authors/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"v1",
+														"Authors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-38856907",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json; v=1.0"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"id\": 34222127,\n  \"idBook\": -27268511,\n  \"firstName\": \"Excepteur cupidatat\",\n  \"lastName\": \"proident et incididunt ut\"\n}"
+										}
+									]
+								},
+								{
+									"name": "/api/v1/Authors/:id Copy 2",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json; v=1.0"
+											},
+											{
+												"key": "Accept",
+												"value": "text/plain; v=1.0"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "[object Object]",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "[object Object]",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/v1/Authors/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"v1",
+														"Authors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-38856907",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json; v=1.0"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"id\": 34222127,\n  \"idBook\": -27268511,\n  \"firstName\": \"Excepteur cupidatat\",\n  \"lastName\": \"proident et incididunt ut\"\n}"
+										}
+									]
+								},
+								{
+									"name": "/api/v1/Authors/:id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/v1/Authors/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"v1",
+														"Authors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-38856907",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/v1/Authors/:id Copy",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/v1/Authors/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"v1",
+														"Authors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-38856907",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/api/v1/Authors",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain; v=1.0"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/Authors",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"Authors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; v=1.0"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"id\": -27326624,\n    \"idBook\": -2465020,\n    \"firstName\": \"ea ullamco Excepteur ipsum aliquip\",\n    \"lastName\": \"labore exercitation pariatur\"\n  },\n  {\n    \"id\": -78622449,\n    \"idBook\": 2693623,\n    \"firstName\": \"culpa consectetur\",\n    \"lastName\": \"incididunt adipisicing ea\"\n  }\n]"
+								}
+							]
+						},
+						{
+							"name": "/api/v1/Authors Copy",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain; v=1.0"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/Authors",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"Authors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; v=1.0"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"id\": -27326624,\n    \"idBook\": -2465020,\n    \"firstName\": \"ea ullamco Excepteur ipsum aliquip\",\n    \"lastName\": \"labore exercitation pariatur\"\n  },\n  {\n    \"id\": -78622449,\n    \"idBook\": 2693623,\n    \"firstName\": \"culpa consectetur\",\n    \"lastName\": \"incididunt adipisicing ea\"\n  }\n]"
+								}
+							]
+						},
+						{
+							"name": "/api/v1/Authors",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json; v=1.0"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain; v=1.0"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[object Object]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/Authors",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"Authors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "[object Object]",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; v=1.0"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": 34222127,\n  \"idBook\": -27268511,\n  \"firstName\": \"Excepteur cupidatat\",\n  \"lastName\": \"proident et incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/v1/Authors Copy",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json; v=1.0"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain; v=1.0"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[object Object]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/Authors",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"Authors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "[object Object]",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; v=1.0"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": 34222127,\n  \"idBook\": -27268511,\n  \"firstName\": \"Excepteur cupidatat\",\n  \"lastName\": \"proident et incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/v1/Authors Copy 2",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json; v=1.0"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain; v=1.0"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[object Object]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/Authors",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"Authors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "[object Object]",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; v=1.0"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": 34222127,\n  \"idBook\": -27268511,\n  \"firstName\": \"Excepteur cupidatat\",\n  \"lastName\": \"proident et incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/v1/Authors/authors/books/:idBook",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain; v=1.0"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/Authors/authors/books/:idBook",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"Authors",
+										"authors",
+										"books",
+										":idBook"
+									],
+									"variable": [
+										{
+											"key": "idBook",
+											"value": "-38856907",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/authors/books/:idBook",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												"authors",
+												"books",
+												":idBook"
+											],
+											"variable": [
+												{
+													"key": "idBook",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; v=1.0"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"id\": -27326624,\n    \"idBook\": -2465020,\n    \"firstName\": \"ea ullamco Excepteur ipsum aliquip\",\n    \"lastName\": \"labore exercitation pariatur\"\n  },\n  {\n    \"id\": -78622449,\n    \"idBook\": 2693623,\n    \"firstName\": \"culpa consectetur\",\n    \"lastName\": \"incididunt adipisicing ea\"\n  }\n]"
+								}
+							]
+						},
+						{
+							"name": "/api/v1/Authors/authors/books/:idBook Copy",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain; v=1.0"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/Authors/authors/books/:idBook",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"Authors",
+										"authors",
+										"books",
+										":idBook"
+									],
+									"variable": [
+										{
+											"key": "idBook",
+											"value": "-38856907",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/Authors/authors/books/:idBook",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"Authors",
+												"authors",
+												"books",
+												":idBook"
+											],
+											"variable": [
+												{
+													"key": "idBook",
+													"value": "-38856907",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; v=1.0"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"id\": -27326624,\n    \"idBook\": -2465020,\n    \"firstName\": \"ea ullamco Excepteur ipsum aliquip\",\n    \"lastName\": \"labore exercitation pariatur\"\n  },\n  {\n    \"id\": -78622449,\n    \"idBook\": 2693623,\n    \"firstName\": \"culpa consectetur\",\n    \"lastName\": \"incididunt adipisicing ea\"\n  }\n]"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}

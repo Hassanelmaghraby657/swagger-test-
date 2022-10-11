@@ -1,0 +1,83 @@
+ 1-API: GET /api/v1/Authors
+  Test Case: response should be 200 OK
+  Expected Result: 200 OK
+  Actual Result: 200 OK
+  Status: Pass
+
+ 2-API: GET /api/v1/Authors
+  test case : Objects inside response contain, id, idBook, firstName, lastName.
+  Expected results : 200 ok 
+  Actual Result: 200 OK
+  Status: Pass
+
+ 3-API : Post /api/v1/Authors
+   Test Case :Register a new valid Author successfully and response code "201 Created".
+   Expected results : 200 ok
+   Actual Result: 200 OK
+   Status: Pass
+
+ 4-API : POST /api/v1/Authors.
+   test case : firstname & lastname should be mandatory
+   Expected results : 400 &"First name and last name should be mandatory"
+   Actual Result: 200 OK
+   Status: fail
+
+ 5-API : POST /api/v1/Authors.
+   test case : id & idbook should be integer
+   Expected results :  200 ok
+   Actual Result: 200 OK
+   Status: pass
+
+ 6-API : GET /api/v1/Authors/authors/books/{idBook}
+   test case : Searching with valid integer idBook should return relative data in response body
+   Expected results : 200 ok
+   Actual Result: 200 OK
+   Status: Pass 
+
+ 7-API : GET /api/v1/Authors/authors/books/{idBook}
+    test case : user cannot let idBook field empty
+    Expected results : 400 idBook is a mandatory 
+    Actual Result: As Expected "validation message appear"
+    Status: Pass 
+
+ 8-API : GET ​/api​/v1​/Authors​/{id}
+   test case :Searching with valid integer id should return relative data in response body
+   Expected results : 200 ok and all the author that have the the same ID is exist
+   Actual Result: 200 OK
+   Status: Pass 
+
+ 9-API : GET ​/api​/v1​/Authors​/{id}
+   test case :user cannot enter string in Id field
+   Expected results : 400 id should be integer
+   Actual Result: As Expected "validation message appear"
+   Status: Pass   
+
+ 10-API:PUT /api/v1/Authors/{id}
+   test case : Author's data is updated successfully
+   Expected results : 200 ok
+   Actual Result: 200 OK
+   Status: Pass 
+
+ 11-API:PUT /api/v1/Authors/{id}
+   test case : user can update id successfully
+   Expected results : 200 ok and id is updated 
+   Actual Result: 200 OK
+   Status: Pass 
+
+ 12-API:PUT /api/v1/Authors/{id}
+   test case : user can update idBook successfully
+   Expected results : 200 ok and idBook is updated 
+   Actual Result: 200 OK
+   Status: Pass 
+
+ 13-API :Delete /api/v1/Authors/{id}
+   test case : Delete of user by id 
+   Expected results : 200 ok and user is deleted
+   Actual Result: 200 OK "As Expected'
+   Status: Pass 
+   
+ 14-API :Delete /api/v1/Authors/{id}
+   test case : Delete Non Exist user 
+   Expected results : user id not exist
+   Actual Result: As Expected
+   Status: Pass 
